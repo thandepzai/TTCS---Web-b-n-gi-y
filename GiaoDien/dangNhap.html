@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+
+</head>
+<body>
+    <div class="modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body">
+            <div class="modal__inner">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="auth-form__switch-btn"><a href="./dangKi.html" class="subdki">Đăng ký</a></span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input id="taikhoan" type="text" class="auth-form__input" placeholder="Tên đăng nhập">
+                            <span id="error__tk"></span>
+                            <input id="matkhau" type="password" class="auth-form__input" placeholder="Mật khẩu">
+                            <span id="error__mk"></span>
+                        </div>
+                        
+                        <div class="auth-form__controls">
+                            <div class="form-btn">
+                                <a href="./index.html">TRỞ LẠI</a>
+                            </div>
+                            <div>
+                                <button id="btn___dn" onclick="checkValid()">Đăng Nhập</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/JS/DangNhap.js"></script>
+</html>

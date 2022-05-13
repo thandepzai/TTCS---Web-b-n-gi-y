@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+</head>
+<body>
+    <div class="modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body">
+            <div class="modal__inner">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn"><a href="./dangNhap.html" class="subdnhap">Đăng nhập</a></span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input id="taikhoan" type="text" class="auth-form__input" placeholder="Tên đăng nhập">
+                            <span id="error__tk"></span>
+                            <input id="matkhau" type="password" class="auth-form__input" placeholder="Mật khẩu">
+                            (Mật khẩu tối thiểu 8 ký tự, ít nhất một chữ cái viết hoa, một chữ cái viết thường, một số và một ký tự đặc biệt) <br>
+                            <span id="error__mk"></span>
+                            <span id="error__DinhDang"></span>                   
+                            <input id="checkmk"type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                            <span id="error__lmk"></span>
+                            <span id="error__LapMK"></span>
+                        </div>
+                        <div class="auth-form__aside">
+                            <p class="auth-form__polycy-text">
+                                Bằng việc đăng ký, bạn đã đồng ý với GREY.B về
+                                <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> &
+                                <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+                        <div class="auth-form__controls">
+                            <div class="form-btn">
+                                <a href="./index.html">TRỞ LẠI</a>
+                            </div>
+                            <div class="form-btn__dk">
+                                <button id="btn___dk">Đăng Ký</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="./assets/JS/DangKi.js"></script>
+</html>
